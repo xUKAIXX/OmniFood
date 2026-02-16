@@ -1,0 +1,1053 @@
+
+header{
+    height: 80px;
+    background-color:#fdf2e9;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.logo{
+    display: flex;
+    height: 24px;
+    width: 164px;
+    margin-top: 14px;
+    margin-left: 12px;
+}
+.main-menu{
+    font-size: 20px;
+    font-weight: 600;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 48px;
+    margin-top: 31px;
+    margin-bottom: 31px;
+    margin-right: 48px;
+}
+.last-list-menu{
+    display: flex;
+    background-color: #e67e22;
+    border-radius: 9px;
+    height: 40px;
+    width: 166px;
+    margin-top: -10px;
+    align-items: center;
+    justify-content: center;
+}
+.last-list-menu:hover{
+    background-color: #c0610f;
+    transform: 0.3s ease;
+}
+.last-list-menu a{
+    text-decoration: none;
+    color: #ffffff;
+    margin-bottom: 4px;
+}
+.hero-section{
+    display: flex;
+    background-color: #fdf2e9;
+    display: flex;
+    height: 718px;
+}
+.hero-content{
+    display: flex;
+    margin-top: 48px;
+    flex-direction: row;
+}
+.text-heroblock{
+    display: flex;
+    flex-direction: column;
+    width: 590px;
+    margin-left: 342px;
+}
+.text-heroblock h2{
+    display: flex;
+    font-size: 48px;
+    height: 219px;
+    width: 570px;
+    font-weight: bold;
+    line-height: 54,6px;
+}
+.text-heroblock p{
+    display: flex;
+    font-size: 20px;
+    font-weight: 400;
+    color: #444;
+    line-height: 32px;
+}
+.hero-image{
+    margin-left: 96px;
+    width: 570px;
+}
+.hero-btn{
+    margin-top: 48px;
+}
+.start-eat{
+    background-color: #E67E22;
+    border: #E67E22 1px solid;
+    border-radius: 9px;
+    height: 52px;
+    width: 346px;
+    color: #ffff;
+    font-weight: 600;
+    font-size: 20px;
+}
+.about{
+    margin-left: 18px;
+    background-color: #ffff;
+    border: #ffff 1px solid;
+    border-radius: 9px;
+    height: 52px;
+    width: 191px;
+    color: #555;
+    font-weight: 600;
+    font-size: 20px;
+}
+.about:hover{
+    background-color: #f1f1f1;
+    transform: 0.6s ease;
+    border-color: #f1f1f1;
+}
+.start-eat:hover{
+    background-color: #c0610f;
+    transform: 0.3s ease;
+}
+.hero-clinet{
+    margin-top: 80px;
+    display: flex;
+    width: 570px;
+    height: 48px;
+    flex-direction: row;
+}
+.image-client{
+    display: flex;
+    flex-direction: row;
+    width: 208px;
+    height: 48px;
+}
+.client-face{
+    border: 3px #fdf2e9 solid;
+    border-radius: 24px;
+    margin-left: -12px;
+}
+.stat p{
+    font-size: 18px;
+    margin-left: 20px;
+    margin-top: 5px;
+    font-weight: 700;
+}
+.orange-text{
+    color: #CF711F;
+}
+.Talk-about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.talk-about{
+    display: flex;
+    margin-top: 48px;
+    width: 135px;
+    height: 14px;
+    font-weight: 600;
+    color: #888888;
+    line-height: 14px;
+    font-size: 14px;
+}
+.corp{
+    margin-top: 24px;
+    display: flex;
+    list-style: none;
+    gap: 54.6px;
+}
+.img-corp{
+    height: 32px;
+}
+.Techcrunch{
+    width: 224.8px;
+}
+.business-insider{
+    width: 100px;
+}
+.York{
+    width: 244px;
+}
+.Forbes{
+    width: 122px;
+}
+.USA{
+    width: 171px;
+}
+.What-work{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.head-what-work{
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+    height: 85px;
+    width: 1200px;
+}
+.mini-heading{
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #CF711F;
+    display: flex;
+
+}
+.haeding{
+    margin-top: 16px;
+    display: flex;
+    font-size: 44px;
+    font-weight: 700;
+    color: #333333;
+}
+.main-what-work{
+    display: flex;
+    flex-direction: column;
+    width: 1200px;
+    height: 1330px;
+}
+.element-what-work{
+    margin-top: 103px;
+    display: flex;
+    flex-direction: row;
+    height: 380px;
+}
+.text-what-work{
+    width: 536px;
+    display: flex;
+    flex-direction: column;
+}
+.number-what-work{
+    width: 536px;
+    height: 86px;
+    font-weight: 600;
+    font-size: 86px;
+    line-height: 86px;
+    color: #DDDDDD;
+}
+.minihead-what-work{
+    display: flex;
+    margin-top: 12px;
+    width: 536px;
+    height: 72px;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 36px;
+    color: #333333;
+}
+.mini-text-what-work{
+    display: flex;
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32.4px;
+    color: #555555;
+}
+.img-work{
+    display: flex;
+    margin-left: 238px;
+}
+.img-work-left{
+    display: flex;
+    margin-right: 238px;
+}
+.mini-photo-what-work::before,
+.mini-photo-what-work::after{
+    content: '';
+    display: block;
+    border-radius: 100%;
+    position: absolute;
+}
+.mini-photo-what-work::before{
+    width: 320px;
+    height: 320px;
+    background-color: #fdf2e9;
+    z-index: -2;
+    margin-left:170px;
+    margin-top: 20px;
+}
+.mini-photo-what-work::after{
+    width: 220px;
+    height: 220px;
+    background-color: #fae0c9;
+    z-index: -1;
+    position: relative;
+    margin-left:220px;
+    margin-top:-300px;
+}
+.mini-photo-what-work-left::before,
+.mini-photo-what-work-left::after{
+    content: '';
+    display: block;
+    border-radius: 100%;
+    position: absolute;
+}
+.mini-photo-what-work-left::before{
+    width: 320px;
+    height: 320px;
+    background-color: #fdf2e9;
+    z-index: -2;
+    margin-left:-66px;
+    margin-top: 20px;
+}
+.mini-photo-what-work-left::after{
+    width: 220px;
+    height: 220px;
+    background-color: #fae0c9;
+    z-index: -1;
+    position: relative;
+    margin-left:-18px;
+    margin-top:-300px;
+}
+.our-recipes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.header-our-recipes{
+    display: flex;
+    flex-direction: column;
+    margin-top: 96px;
+    align-items: center;
+}
+.mini-head-our-recipes{
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 600;
+    letter-spacing: 0.75px;
+    text-transform: uppercase;
+    color: #CF711F;
+    display: flex;
+}
+.head-our-recipes{
+    margin-top: 16px;
+    display: flex;
+    font-size: 44px;
+    font-weight: 700;
+    color: #333333;
+    width: 1100px;
+    text-align: center;
+}
+.card-galery{
+    display: flex;
+    flex-direction: row;
+    width: 1600px;
+    height: 506px;
+    margin-top: 96px;
+    gap: 64px;
+    align-items: center;
+    justify-content: space-between;
+}
+.card {
+    width: 336px;
+    height: 506px;
+    background-color: #ffffff;
+    border-radius: 11px;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    cursor: pointer;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.12), 
+                0 10px 20px rgba(0, 0, 0, 0.08);
+    background-color: #fefefe;
+}
+
+.card-list {
+    display: flex;
+    flex-direction: column;
+    width: 336px;
+    height: 506px;
+    background-color: #ffffff;
+    border-radius: 11px;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    cursor: pointer;
+}
+
+.card-list:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1), 
+                0 8px 16px rgba(0, 0, 0, 0.06);
+    background-color: #fefefe;
+}
+
+.card img{
+    width: 336px;
+    height: 224px;
+    border-top-left-radius: 11px;
+    border-top-right-radius: 11px;
+}
+.zagl{
+    display: flex;
+    margin-top: 12px;
+    margin-left: 48px;
+    width: 240px;
+    height: 24px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 24px;
+    color: #333333;
+}
+.metka{
+    margin-top: 34px;
+    display: flex;
+    flex-direction: row;
+    width: 240px;
+    height: 20px;
+    margin-left: 48px;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 12px;
+    text-transform: uppercase;
+}
+.metka-paleo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFD43B;
+    width: 59px;
+    height: 20px;
+    border-radius: 100px;
+    margin-left: 4px;
+}
+.metka-vegan{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #94D82D;
+    width: 88px;
+    height: 20px;
+    border-radius: 100px;
+    margin-left: 4px;
+}
+.metka-vegat{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #51CF66;
+    width: 129px;
+    height: 20px;
+    border-radius: 100px;
+    margin-left: 4px;
+}
+.info-food{
+    display: flex;
+    flex-direction: column;
+    width: 240px;
+    height: 132px;
+    margin-left: 48px;
+    margin-top: 12px;
+}
+.row-list{
+    display: flex;
+    flex-direction: row;
+    width: 240px;
+    height: 24px;
+    gap: 16px;
+    margin-top: 20px;
+    color: #555555;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 18px;
+}
+.row-list img{
+    width: 24px;
+    height: 24px;
+}
+.row-list span{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 18px;
+}
+.head-cardlist{
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    letter-spacing: -0.5px;
+    color: #333333;
+}
+.head-list-obl{
+    display: flex;
+    flex-direction: column;
+    width: 336px;
+    height: 398px;
+    margin-top: 32px;
+}
+.head-list-first{
+    display: flex;
+    flex-direction: row;
+    width: 336px;
+    height: 30px;
+}
+.head-list{
+    display: flex;
+    flex-direction: row;
+    width: 336px;
+    height: 30px;
+    margin-top: 16px;
+}
+.head-list-first p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21.6px;
+    color: #555555;
+    display: flex;
+    margin-left: 16px;
+}
+.head-list p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21.6px;
+    color: #555555;
+    display: flex;
+    margin-left: 16px;
+}
+.recepis{
+    display: flex;
+    margin-top: 48px;
+    margin-bottom: 99px; /*НЕ ЗАБУДЬ УДАЛИТЬ*/
+    width: 240px;
+    height: 18px;
+}
+.recepis p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 18px;
+    color: #E67E22;
+    text-decoration: underline;
+}
+.reviews {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgba(253, 242, 233, 1);
+    padding: 20px;
+margin-top: 100px;
+}
+
+.reviews_left {
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+    justify-content: center;
+}
+
+.reviews_left h3 {
+    font-family: Rubik;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 16px;
+    leading-trim: NONE;
+    line-height: 16px;
+    letter-spacing: 0.75px;
+    vertical-align: middle;
+    text-transform: uppercase;
+    color: rgba(207, 113, 31, 1);
+}
+
+.reviews_left h2 {
+    font-family: Rubik;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 40px;
+    leading-trim: NONE;
+    line-height: 52.8px;
+    letter-spacing: -0.5px;
+    vertical-align: middle;
+    color: rgba(51, 51, 51, 1);
+    margin: 0px;
+}
+
+.review_row {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 40px;
+    column-gap: 90px;
+}
+
+.review {
+    display: flex;
+    flex-direction: column;
+    width: 392px;
+}
+
+.review_text {
+    font-family: Rubik;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 18px;
+    leading-trim: NONE;
+    line-height: 32.4px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    color: rgba(85, 85, 85, 1);
+
+}
+
+.review_author {
+    font-family: Rubik;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    leading-trim: NONE;
+    line-height: 16px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    color: rgba(111, 111, 111, 1);
+
+}
+
+.review_img {
+    width: 64px;
+    height: 64px;
+    angle: 0 deg;
+    opacity: 1;
+    border-radius: 32px;
+
+}
+
+
+.reviews_right {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+.menu_item {
+    width: 240px;
+    height: 240px;
+    opacity: 1;
+}
+.menu_item:hover {
+    transform: scale(1.05);
+    transition: 1s;
+}
+
+.price_section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+    row-gap: 50px;
+}
+
+.price_head h3 {
+    color: rgba(207, 113, 31, 1);
+    font-family: Rubik;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 16px;
+    leading-trim: NONE;
+    line-height: 16px;
+    letter-spacing: 0.75px;
+    vertical-align: middle;
+    text-transform: uppercase;
+    width: 1100px;
+}
+
+.price_head h2 {
+    color: rgba(51, 51, 51, 1);
+    font-family: Rubik;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 44px;
+    leading-trim: NONE;
+    line-height: 52.8px;
+    letter-spacing: -0.5px;
+    vertical-align: middle;
+    margin-bottom: 50px;
+}
+
+.price_row {
+    display: flex;
+    flex-direction: row;
+    column-gap: 40px;
+}
+
+.price {
+    angle: 0 deg;
+    opacity: 1;
+    gap: 18px;
+    padding: 30px;
+    border-radius: 11px;
+    border-width: 2px;
+    border: 2px solid rgba(253, 242, 233, 1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.price h3 {
+    color: rgba(207, 113, 31, 1);
+    font-family: Rubik;
+    font-weight: 600;
+    font-style: SemiBold;
+    font-size: 20px;
+    leading-trim: NONE;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: center;
+    vertical-align: middle;
+    text-transform: uppercase;
+
+}
+
+.price h2 {
+    color: rgba(51, 51, 51, 1);
+    font-family: Rubik;
+    font-weight: 600;
+    font-style: SemiBold;
+    font-size: 62px;
+    leading-trim: NONE;
+    line-height: 62px;
+    letter-spacing: 0%;
+    text-align: center;
+    vertical-align: middle;
+
+}
+
+.price h2 span {
+    font-family: Rubik;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 30px;
+    leading-trim: NONE;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.price p {
+    color: rgba(111, 111, 111, 1);
+    font-family: Rubik;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    leading-trim: NONE;
+    line-height: 25.6px;
+    letter-spacing: 0%;
+    text-align: center;
+    vertical-align: middle;
+    width: 250px;
+}
+
+.price ul li {
+    font-family: Rubik;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    leading-trim: NONE;
+    line-height: 21.6px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    color: rgba(85, 85, 85, 1);
+    list-style-type: none;
+}
+
+.price ul li::before {
+    content: url(img/check.png);
+    margin-right: 10px;
+    bottom: -10px;
+    position: relative;
+}
+
+.price button {
+    width: 320px;
+    height: 72;
+    angle: 0 deg;
+    opacity: 1;
+    padding-top: 16px;
+    padding-right: 53.52px;
+    padding-bottom: 16px;
+    padding-left: 53.5px;
+    border-radius: 9px;
+    background: rgba(230, 126, 34, 1);
+    font-family: Rubik;
+    font-weight: 600;
+    font-style: SemiBold;
+    font-size: 20px;
+    leading-trim: NONE;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: center;
+    vertical-align: middle;
+    color: rgba(255, 255, 255, 1);
+    border: none;
+}
+
+.price ul li.cross::before {
+    content: url(img/cross.png);
+
+}
+
+.price.orange {
+    background: rgba(253, 242, 233, 1);
+    overflow: hidden;
+}
+
+.price.orange::after {
+    content: "Best Value";
+    width: 245.30999877958848;
+    height: 30.0000058300803;
+    rotate: 45deg;
+    opacity: 1;
+    padding-top: 7.01px;
+    padding-right: 80px;
+    padding-bottom: 7.99px;
+    padding-left: 80px;
+    background: rgba(255, 212, 59, 1);
+    position: relative;
+    right: -170px;
+    top: -94%;
+    color: rgba(51, 51, 51, 1);
+    font-family: Rubik;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 14px;
+    leading-trim: NONE;
+    line-height: 14px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    text-transform: uppercase;
+}
+
+.price_section p {
+    color: rgba(85, 85, 85, 1);
+    font-family: Rubik;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    leading-trim: NONE;
+    line-height: 25.6px;
+    letter-spacing: 0%;
+    text-align: center;
+    vertical-align: middle;
+
+}
+
+.price_comments {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+.price_comment {
+    width: 250px;
+}
+
+.price_comment h2 {
+    color: rgba(51, 51, 51, 1);
+    font-family: Rubik;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 24px;
+    leading-trim: NONE;
+    line-height: 24px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+
+}
+
+.price_comment p {
+    color: rgba(85, 85, 85, 1);
+    font-family: Rubik;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 18px;
+    leading-trim: NONE;
+    line-height: 32.4px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.form_section {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.form_block {
+    display: flex;
+    flex-direction: row;
+    width: 1100px;
+    border-radius: 11px;
+    background: linear-gradient(135deg, #EB984E 0%, #E67E22 100%);
+    box-shadow: 0px 24px 48px 0px rgba(0, 0, 0, 0.15);
+    overflow: hidden;
+}
+
+.form_text {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-top: 47.4px;
+    padding-right: 64px;
+    padding-bottom: 30px;
+    padding-left: 64px;
+}
+
+.form_text h2 {
+    color: rgba(69, 38, 10, 1);
+    font-family: Rubik;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 44px;
+    leading-trim: NONE;
+    line-height: 52.8px;
+    letter-spacing: -0.5px;
+    vertical-align: middle;
+    margin: 0px;
+}
+
+.form_text p {
+    color: rgba(69, 38, 10, 1);
+    font-family: Rubik;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 18px;
+    leading-trim: NONE;
+    line-height: 32.4px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+
+}
+
+.form_img {
+    width: 500px;
+    height: 100%;
+    opacity: 60%;
+}
+
+.forms {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin: 0px;
+}
+
+.form_div {
+    display: flex;
+    flex-direction: column;
+}
+
+.form_div p {
+    color: rgba(69, 38, 10, 1);
+    font-family: Rubik;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 16px;
+    leading-trim: NONE;
+    line-height: 16px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+}
+
+.form_div input {
+    width: 280px;
+    height: 46px;
+    angle: 0 deg;
+    opacity: 1;
+    border-radius: 9px;
+    border: none;
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.1);
+    background: rgba(253, 242, 233, 1);
+    padding: 0px;
+    margin: 0px;
+}
+
+.form_button {
+    background: rgba(69, 38, 10, 1);
+    color: rgba(253, 242, 233, 1);
+    font-family: Rubik;
+    font-weight: 600;
+    font-style: SemiBold;
+    font-size: 20px;
+    leading-trim: NONE;
+    line-height: 100%;
+    letter-spacing: 0%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 280px;
+    height: 46px;
+    angle: 0 deg;
+    opacity: 1;
+    border-radius: 9px;
+    padding-top: 12px;
+    padding-right: 95.61px;
+    padding-bottom: 12px;
+    padding-left: 95.61px;
+    border: none;
+    align-self: end;
+}
+
+footer {
+    border-top: 1px solid rgba(238, 238, 238, 1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 128px;
+    padding-right: 360px;
+    padding-bottom: 127px;
+    padding-left: 360px;
+    border-top-width: 1px;
+    margin-top: 100px;
+}
+
+.footer_content {
+    display: flex;
+    flex-direction: row;
+    width: 1100px;
+    column-gap: 64px;
+    padding-left: 32px;
+    padding-right: 32px;
+}
+
+.footer_column {
+    display: flex;
+    flex-direction: column;
+}
+
+.img_box {
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+}
+
+.footer_column {
+    color: rgba(118, 118, 118, 1);
+    font-family: Rubik;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 14px;
+    leading-trim: NONE;
+    line-height: 22.4px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    width: 210px;
+    height: 210px;
+    justify-content: space-between;
+}
+
+.footer_column h3 {
+    margin: 0px;
+    color: rgba(85, 85, 85, 1);
+    font-family: Rubik;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 18px;
+    leading-trim: NONE;
+    line-height: 18px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+
+}
